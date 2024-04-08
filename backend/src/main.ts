@@ -18,7 +18,7 @@ async function bootstrap() {
   });
   const selectedPort = process.env.PORT ?? 3000;
 
-  console.log(`Running on port http://localhost:${selectedPort}`);
+  console.log(`🚀 Running on port:  http://localhost:${selectedPort}`);
   await app.listen(selectedPort);
 }
 bootstrap();
