@@ -1,3 +1,4 @@
+import { type RemixService } from "@monolith/backend";
 import {
   Links,
   Meta,
@@ -5,7 +6,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { type RemixService } from "@monolith/backend";
 
 declare module "@remix-run/node" {
   interface AppLoadContext {

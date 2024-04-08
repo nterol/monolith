@@ -1,8 +1,8 @@
 import {resolve} from 'path'
 import { vitePlugin as remix } from "@remix-run/dev";
 import { installGlobals } from "@remix-run/node";
-import { defineConfig } from "vite";
 import {flatRoutes} from 'remix-flat-routes'
+import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 const MODE = process.env.NODE_ENV;

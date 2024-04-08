@@ -2,11 +2,11 @@
 module.exports = {
   root: true,
   extends: [
-    "@virgile/eslint-config/base.js",
+    "@monolith/eslint-config/base.js",
     "@remix-run/eslint-config",
     "@remix-run/eslint-config/node",
     // 'plugin:tailwindcss/recommended',
-    "plugin:remix-react-routes/recommended",
+    // "plugin:remix-react-routes/recommended",
   ],
   settings: {
     // tailwindcss: {
